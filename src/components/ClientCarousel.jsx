@@ -3,27 +3,39 @@ import udupiLogo from '../assets/udupi_upahar_logo.png';
 import tajLogo from '../assets/taj_banjara.png';
 import syndicateLogo from '../assets/syndicate_bank.png';
 import suprabhatLogo from '../assets/suprabhat.png';
+
+// Importing newly moved logos
+import htcLogo from '../assets/logos/htc.png';
+import ohrisLogo from '../assets/logos/ohris.png';
+import corpbankLogo from '../assets/logos/corpbank.png';
+import pistaLogo from '../assets/logos/pista.png';
+import rachemLogo from '../assets/logos/rachem.png';
+import zuariLogo from '../assets/logos/zuari.png';
+import amdLogo from '../assets/logos/amd.png';
+import vasaviLogo from '../assets/logos/vasavi.png';
+import megasoftLogo from '../assets/logos/megasoft.png';
+
 import { Building2, Home } from 'lucide-react';
 import './ClientCarousel.css';
 
 const clients = [
     { name: "Swathi Group of Hotels", logo: null },
-    { name: "HTC Global Services", logo: "/logos/htc.png" },
+    { name: "HTC Global Services", logo: htcLogo },
     { name: "Taj Banjara", logo: tajLogo }, // Added at prominent position 3
-    { name: "Ohris Group", logo: "/logos/ohris.png" },
-    { name: "Corporation Bank", logo: "/logos/corpbank.png" },
+    { name: "Ohris Group", logo: ohrisLogo },
+    { name: "Corporation Bank", logo: corpbankLogo },
     { name: "Syndicate Bank", logo: syndicateLogo }, // Added
-    { name: "Pista House", logo: "/logos/pista.png" },
-    { name: "RA CHEM Pharma", logo: "/logos/rachem.png" },
+    { name: "Pista House", logo: pistaLogo },
+    { name: "RA CHEM Pharma", logo: rachemLogo },
     { name: "Nandini Group", logo: null },
     { name: "Udupi Upahar", logo: udupiLogo },
     { name: "Hotel Suprabhat", logo: suprabhatLogo },
     { name: "Hotel NKM’s Grand", logo: null },
-    { name: "Zuari Cement", logo: "/logos/zuari.png" },
-    { name: "AMD", logo: "/logos/amd.png" },
+    { name: "Zuari Cement", logo: zuariLogo },
+    { name: "AMD", logo: amdLogo },
     { name: "Yatri Nivas", logo: null },
-    { name: "Vasavi Engineering College", logo: "/logos/vasavi.png" },
-    { name: "Megasoft Technologies", logo: "/logos/megasoft.png" },
+    { name: "Vasavi Engineering College", logo: vasaviLogo },
+    { name: "Megasoft Technologies", logo: megasoftLogo },
     {
         name: "Trusted by 5,000+ Domestic Households",
         logo: null,
