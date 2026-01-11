@@ -56,9 +56,9 @@ const Contact = () => {
         setStatus('sending');
 
         // EmailJS Configuration
-        const SERVICE_ID = 'service_xj6bg8o';
-        const TEMPLATE_ID = 'template_2tefihr';
-        const PUBLIC_KEY = 'lmvJx1CnJoenJRLn1';
+        const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+        const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+        const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
         // Construct the custom message format requested
         const emailContent = `Dear Team,
