@@ -15,7 +15,7 @@ const pillars = [
     },
     {
         icon: <FlaskConical size={40} />,
-        title: "HACC Chemicals",
+        title: "HACCP Chemicals",
         desc: "Using only international, safety-approved products from Bayer & others."
     },
     {
