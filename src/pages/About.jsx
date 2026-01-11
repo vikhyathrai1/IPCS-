@@ -1,5 +1,7 @@
 import React from 'react';
 import { Quote, Target, Eye, Users, History, Award, Heart } from 'lucide-react';
+import srikanthImage from '../assets/srikanth-rai.png';
+import vikhyathImage from '../assets/vikhyath-rai.jpg';
 
 const About = () => {
 
@@ -149,7 +151,7 @@ const About = () => {
                     <LeadershipCard
                         name="Srikanth Rai"
                         role="MD and Proprietor"
-                        image="/images/srikanth-rai.png"
+                        image={srikanthImage}
                         imagePosition="center 15%"
                         imageScale={1.0}
                         style={{ height: '520px' }}
@@ -164,9 +166,10 @@ const About = () => {
                     <LeadershipCard
                         name="Vikhyath Rai"
                         role="Head, Operations"
-                        image="/images/vikhyath-rai.jpg"
+                        image={vikhyathImage}
                         imagePosition="center top"
                         imageScale={1.2}
+
                         style={{ height: '520px' }}
                         summary="Engineering + MBA (BITSoM). Focused on operational excellence, service delivery, and expanding the company's professional presence."
                     >
