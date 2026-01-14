@@ -168,7 +168,7 @@ IPCS Website Notification System`;
                             <div>
                                 <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>WhatsApp Us</h3>
                                 <a
-                                    href="https://wa.me/919849000797?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20commercial%20pest%20control%20services%20for%20my%20firm.%20%0ARequirement%20Details%3A%20"
+                                    href="https://wa.me/919849000797?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20commercial%20pest%20control%20services.%20%0ARequirement%20Details%3A%20"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     style={{
