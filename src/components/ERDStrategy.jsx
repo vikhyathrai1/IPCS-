@@ -39,7 +39,7 @@ const ERDStrategy = () => {
                         </div>
                         <h3>Destruction</h3>
                         <h4>Expert Eradication</h4>
-                        <p>Targeted use of WHO-certified chemicals and methods to eliminate any existing infestation.</p>
+                        <p>Targeted use of HACCP-certified chemicals and methods to eliminate any existing infestation.</p>
                     </div>
                 </div>
             </div>

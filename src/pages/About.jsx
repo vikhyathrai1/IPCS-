@@ -188,7 +188,7 @@ const About = () => {
                         <p>
                             At Industrial Pest Control Services, it is our mission to provide the highest quality service of
                             unmatched value to our clients through the efforts of a highly dedicated, trained and productive
-                            workforce who share a commitment to long term growth and success of the company.
+                            workforce HACCP share a commitment to long term growth and success of the company.
                         </p>
                     </FlipCard>
 

@@ -24,7 +24,7 @@ const Services = () => {
                 <div className="text-center" style={{ marginBottom: '5rem' }}>
                     <h1 className="text-primary" style={{ fontSize: '3rem', marginBottom: '1rem', fontWeight: 800 }}>Our Services</h1>
                     <p className="text-secondary" style={{ maxWidth: '700px', margin: '0 auto', fontSize: '1.1rem' }}>
-                        Equipped to handle all types of Pest Elimination with WHO-certified safety standards.
+                        Equipped to handle all types of Pest Elimination with HACCP-certified safety standards.
                     </p>
                 </div>
 
