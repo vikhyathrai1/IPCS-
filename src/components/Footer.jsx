@@ -13,7 +13,7 @@ const Footer = () => {
                         <h2>Industrial Pest Control Services</h2>
                     </div>
                     <p className="brand-desc">
-                        Since 1982, we have been the leading provider of Industrial Pest Control in Hyderabad. We use HACCP-approved Green Pest Management and natural pesticides to eliminate infestations in factories, hotels, and corporate offices. With 40 years of experience, we provide the most reliable, high-standard pest removal in Telangana.
+                        Since 1982, we have been the leading provider of Industrial Pest Control in Hyderabad. We use HACCP-approved Green Pest Management and natural pesticides to eliminate infestations in factories, hotels, and corporate offices. With 40+ years of experience, we provide the most reliable, high-standard pest removal in Telangana.
                     </p>
                 </div>
 

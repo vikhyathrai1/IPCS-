@@ -17,7 +17,7 @@ const Hero = () => {
                     </div>
                     <h1>Pest Management Experts</h1>
                     <p>
-                        Since 1982, we have been the <span style={{ fontWeight: 800 }}>leading provider of Industrial Pest Control</span> in Hyderabad. We use <span style={{ fontWeight: 800 }}>HACCP-approved Green Pest Management</span> and natural pesticides to eliminate infestations in factories, hotels, and corporate offices. With 40 years of experience, we provide the <span style={{ fontWeight: 800 }}>most reliable, high-standard pest removal</span> in Telangana.
+                        Since 1982, we have been the <span style={{ fontWeight: 800 }}>leading provider of Industrial Pest Control</span> in Hyderabad. We use <span style={{ fontWeight: 800 }}>HACCP-approved Green Pest Management</span> and natural pesticides to eliminate infestations in factories, hotels, and corporate offices. With 40+ years of experience, we provide the <span style={{ fontWeight: 800 }}>most reliable, high-standard pest removal</span> in Telangana.
                     </p>
                     <div className="hero-actions">
                         <Link to="/contact" className="btn-primary">
