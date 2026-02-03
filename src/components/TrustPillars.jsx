@@ -21,7 +21,7 @@ const pillars = [
     {
         icon: <UserCheck size={40} />,
         title: "Government Licensed Company",
-        desc: "Company certified in urban integrated pest management"
+        desc: "Company certified by NIPHM in urban integrated pest management"
     }
 ];
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Shield, Home, Factory, Bug, AlertTriangle, CloudRain, MousePointer2, ShieldCheck } from 'lucide-react';
+import { Shield, Home, Factory, Bug, AlertTriangle, Wind, ShieldCheck } from 'lucide-react';
+import RatIcon from '../components/RatIcon';
 
 const ServiceCard = ({ title, icon, children }) => (
     <div style={{
@@ -58,14 +59,14 @@ const Services = () => {
                         </p>
                     </ServiceCard>
 
-                    <ServiceCard title="Mosquito Eradication and Control" icon={<CloudRain size={40} />}>
+                    <ServiceCard title="Mosquito Eradication and Control" icon={<Wind size={40} />}>
                         <p>
                             Comprehensive management of mosquito populations in large open areas.
                             Ideal for campuses, gardens, and industrial compounds to reduce vector-borne disease risks using methods like fogging and larvicide.
                         </p>
                     </ServiceCard>
 
-                    <ServiceCard title="Rodent Control" icon={<MousePointer2 size={40} />}>
+                    <ServiceCard title="Rodent Control" icon={<RatIcon size={40} />}>
                         <p>
                             Eradication of rats and mice using the ERD principle.
                             We focus on trapping and exclusion to keep your facility rodent-free.

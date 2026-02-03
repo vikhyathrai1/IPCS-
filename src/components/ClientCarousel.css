@@ -102,6 +102,17 @@
     transform: scale(1.5);
 }
 
+/* Specific adjustment for padded logos (Resource One) */
+.client-logo.logo-padded {
+    padding: 12px;
+    max-height: 80%; /* Constrain height further */
+    transform: scale(1.1); /* Slight boost to offset padding if needed */
+}
+
+.client-card:hover .client-logo.logo-padded {
+    transform: scale(1.2);
+}
+
 /* Fallback Container */
 .client-fallback {
     display: flex;

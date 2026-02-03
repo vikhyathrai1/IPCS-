@@ -14,6 +14,10 @@ import zuariLogo from '../assets/logos/zuari.png';
 import amdLogo from '../assets/logos/amd.png';
 import vasaviLogo from '../assets/logos/vasavi.png';
 import megasoftLogo from '../assets/logos/megasoft.png';
+import resourceOneLogo from '../assets/logos/resource_one.png';
+import cokarmaLogo from '../assets/logos/cokarma.png';
+import navayugaLogo from '../assets/logos/navayuga.png';
+import xiusLogo from '../assets/logos/xius.png';
 
 import { Building2, Home } from 'lucide-react';
 import './ClientCarousel.css';
@@ -24,10 +28,13 @@ const clients = [
     { name: "Taj Banjara", logo: tajLogo }, // Added at prominent position 3
     { name: "Ohris Group", logo: ohrisLogo },
     { name: "Corporation Bank", logo: corpbankLogo },
+    { name: "Resource One", logo: resourceOneLogo },
+    { name: "CoKarma", logo: cokarmaLogo },
     { name: "Syndicate Bank", logo: syndicateLogo }, // Added
     { name: "Pista House", logo: pistaLogo },
+    { name: "Navayuga Infotech", logo: navayugaLogo },
+    { name: "XIUS", logo: xiusLogo },
     { name: "RA CHEM Pharma", logo: rachemLogo },
-    { name: "Nandini Group", logo: null },
     { name: "Udupi Upahar", logo: udupiLogo },
     { name: "Hotel Suprabhat", logo: suprabhatLogo },
     { name: "Hotel NKM’s Grand", logo: null },
@@ -48,18 +55,22 @@ const ClientCard = ({ client }) => {
     const [imgError, setImgError] = useState(false);
 
     // Specific logos that need to be larger to match others visually
-    const isSmallLogo = client.name === "HTC Global Services" || client.name === "Ohris Group" || client.name === "Zuari Cement";
+    const isSmallLogo = client.name === "HTC Global Services" || client.name === "Ohris Group" || client.name === "Zuari Cement" || client.name === "Navayuga Infotech" || client.name === "XIUS";
 
     // Specific logos that need to be medium (20% bigger)
-    const isMediumLogo = client.name === "Taj Banjara";
+    const isMediumLogo = client.name === "Taj Banjara" || client.name === "CoKarma";
 
     // Specific logos that need to be smaller (AMD is too big)
     const isLargeLogo = client.name === "AMD";
+
+    // Specific padding for Resource One
+    const isResourceOne = client.name === "Resource One";
 
     let logoClass = "client-logo";
     if (isSmallLogo) logoClass += " logo-enlarged";
     if (isMediumLogo) logoClass += " logo-medium";
     if (isLargeLogo) logoClass += " logo-reduced";
+    if (isResourceOne) logoClass += " logo-padded";
 
     // Special styling for the "Domestic Households" card
     if (client.isSpecial) {
